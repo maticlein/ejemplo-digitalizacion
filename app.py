@@ -16,7 +16,8 @@ def main():
 
     logo = Image.open('./img/logo_ufro_innovacion.png')
     st.image(logo, width = 200)    
-    st.title('Ejemplo de muestreo')
+    st.title('Taller de Diseño de Ingeniería')
+    st.header('Ejemplo de Muestreo')
 
     st.sidebar.title('Parámetros')
     f = st.sidebar.slider(label = 'Frecuencia Señal Original', min_value = 1, max_value = 50)
